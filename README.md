@@ -1,14 +1,69 @@
-# MVC Boilerplate
+# Project Title
 
-## Set up
-this boilerlate is intended to be used as a starting point for any MVC project with minimal setup. To get started do the following steps:
-1. In `db/schema.sql` rename the databse and run the file to create your database. 
-2. Copy `.env.EXAMPLE` and populate with you credentials
-3. Run `npm i`
-4. Run `npm start`
+Model View Controller Tech Blog
 
-## What's included
-- Model example (User)
-- Basic Templates
-- Basic Controllers
-- Auth (Controller, middleware, and templates)
+## Description
+
+This application allows users to chat with other users regarding tech. TThis platform serves as a centralized hub for sharing, discussing, and discovering the latest trends, insights, and innovations in the tech industry.
+
+
+
+### Dependencies
+
+Javascript
+MySQL
+Insomnia
+Heroku
+Node.js with the following npm packages
+
+express.js
+dotenv
+Sequelize
+bcrypt
+express-handlebars
+express-session
+connect-session-sequelize
+
+### Installing
+
+* How/where to download your program
+* Any modifications needed to be made to files/folders
+
+### Executing program
+
+* How to run the program
+* Step-by-step bullets
+```
+code blocks for commands
+```
+
+## Help
+
+Any advise for common problems or issues.
+```
+command to run if program contains helper info
+```
+
+## Authors
+
+Contributors names and contact info
+
+ex. Dominique Pizzie  
+ex. [@DomPizzie](https://twitter.com/dompizzie)
+
+
+
+## License
+
+MIT License
+
+Copyright (c) 2023 BenjaminLangs
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Acknowledgments
+
