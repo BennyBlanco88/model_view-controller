@@ -46,11 +46,11 @@ command to run if program contains helper info
 
 ## Authors
 
-Contributors names and contact info
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+https://github.com/OwaisIslam/tech-blog
 
+https://github.com/rmessett15/MVC-Tech-Blog
+https://github.com/treighton/mvc-boileplate
 
 
 ## License
@@ -67,3 +67,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Acknowledgments
 
+https://github.com/OwaisIslam/tech-blog
+
+https://github.com/rmessett15/MVC-Tech-Blog
+https://github.com/treighton/mvc-boileplate
