@@ -26,26 +26,16 @@ connect-session-sequelize
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+To download app, run the command: git clone https://github.com/BennyBlanco88/model_view-controller
 
-### Executing program
+After downloading to your local device, please run the command npm install to install packages
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+To start the app, use the command: npm start
 
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
 
 ## Authors
 
+Benjamin Langs 
 
 https://github.com/OwaisIslam/tech-blog
 

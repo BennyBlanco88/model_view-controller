@@ -3,7 +3,7 @@ const {User,Post,Comment} = require('../../models');
 const withAuth = require('../../utils/auth');
 
 
-// Get all posts
+// Get all of the posts
 router.get("/", (req, res) => {
     Post.findAll({
             attributes: ["id", "content", "title", "created_at"],
