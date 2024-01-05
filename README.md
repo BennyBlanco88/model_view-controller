@@ -32,13 +32,13 @@ After downloading to your local device, please run the command npm install to in
 
 To start the app, use the command: npm start
 
-
+https://thawing-beach-39460-9708fe5d041c.herokuapp.com/
 ## Authors
 
 Benjamin Langs 
 
 https://github.com/OwaisIslam/tech-blog
-
+https://github.com/nystephens/mvc-tech-blog/blob/main/server.js
 https://github.com/rmessett15/MVC-Tech-Blog
 https://github.com/treighton/mvc-boileplate
 
@@ -58,6 +58,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ## Acknowledgments
 
 https://github.com/OwaisIslam/tech-blog
-
+https://github.com/nystephens/mvc-tech-blog/blob/main/server.js
 https://github.com/rmessett15/MVC-Tech-Blog
 https://github.com/treighton/mvc-boileplate

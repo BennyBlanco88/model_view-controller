@@ -4,7 +4,7 @@ const withAuth = require('../../utils/auth');
 
 
 // Get all of the posts
-router.get("/", (req, res) => {
+router.get("/", withAuth, (req, res) => {
     Post.findAll({
             attributes: ["id", "content", "title", "created_at"],
             order: [
@@ -32,7 +32,7 @@ router.get("/", (req, res) => {
 });
 
 // Get a single post
-router.get("/:id", (req, res) => {
+router.get("/:id", withAuth, (req, res) => {
     Post.findOne({
             where: {
                 id: req.params.id,

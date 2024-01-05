@@ -2,24 +2,22 @@ const router = require('express').Router();
 const { User, Post, Comment } = require('../../models');
 
 // Get all of the users
-router.get('/', async (req, res) => {
-  try {
-    const dbUserData = await User.findAll({
-      attributes: {
-        exclude: ['password']
-      }
+
+router.get('/', (req, res) => {
+  User.findAll({
+    attributes: { exclude: ['password'] }
+  })
+    .then(dbUserData => res.json(dbUserData))
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
     });
-    res.json(dbUserData);
-  } catch (err) {
-    console.error(err);
-    res.status(500).json(err);
-  }
 });
 
 // Get a specific user
-router.get('/:id', async (req, res) => {
-  try {
-    const dbUserData = await User.findOne({
+router.get('/:id', (req, res) => {
+  User.findOne({
+    
       attributes: {
         exclude: ['password']
       },
@@ -40,17 +38,18 @@ router.get('/:id', async (req, res) => {
           }
         }
       ]
+    })
+    .then(dbUserData => {
+      if (!dbUserData) {
+        res.status(404).json({ message: 'No user found with this id' });
+        return;
+      }
+      res.json(dbUserData);
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
     });
-
-    if (!dbUserData) {
-      return res.status(404).json({ message: 'No user found with this id' });
-    }
-
-    res.json(dbUserData);
-  } catch (err) {
-    console.error(err);
-    res.status(500).json(err);
-  }
 });
 
 // Create a user
